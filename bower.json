@@ -1,16 +1,12 @@
 {
   "name": "material-design-icons-scss",
+  "version": "1.0.0",
   "authors": [
     "Joel Stransky <stranskydesign@gmail.com>"
   ],
   "description": "A sass library for Google's Material Design Icons",
   "main": [
-    "scss/material-design-icons-scss.scss",
-    "fonts/MaterialIcons-Regular.eot",
-    "fonts/MaterialIcons-Regular.woff2",
-    "fonts/MaterialIcons-Regular.woff",
-    "fonts/MaterialIcons-Regular.ttf",
-    "fonts/MaterialIcons-Regular.svg"
+    "scss/material-design-icons-scss.scss"
   ],
   "keywords": [
     "material-icons",

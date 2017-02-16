@@ -2,13 +2,12 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url('#{$gmi-font-path}/MaterialIcons-Regular.eot'); /* For IE6-8 */
-  src: local('Material Icons'),
-       local('MaterialIcons-Regular'),
-       url('#{$gmi-font-path}/MaterialIcons-Regular.woff2') format('woff2'),
-       url('#{$gmi-font-path}/MaterialIcons-Regular.woff') format('woff'),
-       url('#{$gmi-font-path}/MaterialIcons-Regular.ttf') format('truetype'),
-       url('#{$gmi-font-path}/MaterialIcons-Regular.svg') format('svg');
+  src: url('#{$gmi-font-path}/MaterialIcons-Regular.eot?v=#{$gmi-icon-version}'); /* For IE6-8 */
+  src: url('#{$gmi-font-path}/MaterialIcons-Regular.eot?#iefix&v=#{$gmi-icon-version}') format('embedded-opentype'),
+    url('#{$gmi-font-path}/MaterialIcons-Regular.woff2?v=#{$gmi-icon-version}') format('woff2'),
+    url('#{$gmi-font-path}/MaterialIcons-Regular.woff?v=#{$gmi-icon-version}') format('woff'),
+    url('#{$gmi-font-path}/MaterialIcons-Regular.ttf?v=#{$gmi-icon-version}') format('truetype'),
+    url('#{$gmi-font-path}/MaterialIcons-Regular.svg?v=#{$gmi-icon-version}#materialiconregular') format('svg');
 }
 
 .#{$gmi-css-prefix} {
