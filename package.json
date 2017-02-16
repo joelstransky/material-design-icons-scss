@@ -1,0 +1,29 @@
+{
+  "name": "material-design-icons-scss",
+  "version": "1.0.0",
+  "description": "Dependancy list for material-design-icons-scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelstransky/material-design-icons-scss.git"
+  },
+  "keywords": [
+    "Material-Design",
+    "scss",
+    "css",
+    "icons"
+  ],
+  "author": "Joel Stransky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelstransky/material-design-icons-scss/issues"
+  },
+  "homepage": "https://github.com/joelstransky/material-design-icons-scss#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.1.0"
+  }
+}
